@@ -1,0 +1,12 @@
+footer {
+    text-align: center;
+    background-color: C;
+    color: black;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+}

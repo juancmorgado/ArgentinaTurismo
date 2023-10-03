@@ -2,18 +2,135 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>glaciar</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-
-    <!-- CSS PROPIO -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../img/logo-argentina.webp" type="image/x-icon">
     <title>alpha</title>
 </head>
 <body>
-    <h1>Glaciar Perito Moreno</h1>
+    <header>
+    <!-- MENU DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">ARGENTINA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="../index.html">inicio</a>
+            <a class="nav-link" href="seleccion.html">Seleccion</a>
+            <a class="nav-link active" href="glaciar.html">Glaciar</a>
+            <a class="nav-link" href="cataratas.html">Cataratas</a>
+            <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+    </header>
+
+    <h1 class="my-4 text-center">Glaciar Perito Moreno</h1>
+
+    <p class="text-center">El glaciar Perito Moreno, glaciar Bismarck o glaciar Francisco Gormaz, es una gruesa masa de hielo ubicada en el departamento Lago Argentino de la provincia de Santa Cruz, en el sudoeste de la Argentina, en la región de la Patagonia, con una parte de su superficie ubicada en Natales, Chile. Se integra dentro del parque nacional Los Glaciares.
+    </p>
+
+    <p class="text-center">Este glaciar se origina en el campo de hielo Patagónico Sur teniendo parte de su origen en la región de Magallanes y de la Antártica Chilena de Chile, integrando el Parque nacional Bernardo O'Higgins con el límite demarcado con el Acuerdo de 1998. En su descenso, alcanza el brazo Sur del lago Argentino, con un frente de 5 km de longitud, aflorando sobre el agua con una altura de unos 60 m.
+    Gracias a su constante avance, forma una represa con las aguas del brazo Rico de dicho lago, lo cual genera un desnivel con respecto al resto del lago de hasta 30 m. Por la presión de esta masa líquida se producen filtraciones en el hielo que crean un túnel con una bóveda de más de 50 m de altura. El derrumbe de esta bóveda constituye un inusual espectáculo natural y es uno de los mayores atractivos del parque.
+    </p>
+
+    <main>
+        <div class="gallery">
+            <div class="image image1">
+                <img src="../img/glaciar.1.jpg" alt="Glaciarperitomoreno">
+            </div>
+            <div class="image image2">
+                <img src="../img/glaciar.2.jpg" alt="Glaciarperitomoreno">
+            </div>
+            <div class="image image3">
+                <img src="../img/glaciar.3.jpg" alt="Glaciarperitomoreno">
+            </div>
+            <div class="image image4">
+                <img src="../img/glaciar4.jpg" alt="Glaciarperitomoreno">
+            </div>
+            <div class="image image5">
+                <img src="../img/glaciar5.jpg" alt="Glaciarperitomoreno">
+            </div>
+            <div class="image image6">
+                <img src="../img/glaciar6.jpg" alt="Glaciarperitomoreno">
+            </div>
+        </div>
+    </main>
+
+    <section class="my-4 text-center">
+        <h2 class="my-4">Ubicacion</h2>
+        <p class="text-center">Se encuentra ubicado frente a la península de Magallanes, al sur del parque nacional, a unos 80 km de la villa El Calafate, hasta donde se puede llegar en avión desde el Aeropuerto Internacional Comandante Armando Tola o por vía terrestre por la Ruta Provincial 11.</p>
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162413.61449011238!2d-73.29484100635791!3d-50.50230415705683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbda4c963217850c3%3A0xa481a2efaf7479be!2sGlaciar%20Perito%20Moreno!5e0!3m2!1ses-419!2sar!4v1696287506353!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section>
+        <h2 class="my-4 text-center">Preguntas Frecuentes</h2>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                ¿Qué tiene de especial el glaciar Perito Moreno?
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">- es uno de los pocos que no se derrite. Tampoco crece tres metros al día, como suelen contar los locales, sino que permanece en equilibrio pasando por ciclos de acumulación y ablación. La razón es que los glaciares no responden únicamente a los cambios de temperatura.</div>
+            </div>
+            </div>
+            <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                ¿Cuántos años tiene el hielo del glaciar Perito Moreno?
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">- El glaciar Perito Moreno empezó su formación hace más de 2.5 millones de años, en la última era del hielo. Se cree que la forma del glaciar tal y como se puede ver actualmente es de unos 20.000 años, pese a que durante miles de años ha ido tomando esa forma rectangular tan característica.</div>
+            </div>
+            </div>
+            <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    ¿Por qué se llama glaciar Perito Moreno?
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">- El nombre del glaciar se debe a Francisco Moreno, director del museo de la Sociedad Científica Argentina que estudió la zona en el siglo XIX y tuvo un papel importante en la defensa del territorio de Argentina en una disputa de frontera con Chile.</div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2023 Turismo Argentina</p>
+    </footer>
+
+    <footer>
+        <h3 class="text-center">Visita nuestras redes sociales</h3>
+
+        <div class="redes d-flex justify-content-center">
+            <a href="https://www.instagram.com" target="_blank" class="me-5">
+                <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="https://www.tiktok.com" target="_blank" class="me-5">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+
+            <a href="https://www.youtube.com" target="_blank" class="me-5">
+                <i class="bi bi-youtube"></i>
+            </a>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -2,17 +2,112 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo-argentina.webp" type="image/x-icon">
+    <title>Sobre Nosotros</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-
-    <!-- CSS PROPIO -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>alpha</title>
 </head>
 <body>
-    <h1>Sobre Nosotros</h1>
+    <header>
+    <!-- MENU DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">ARGENTINA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="../index.html">inicio</a>
+            <a class="nav-link" href="seleccion.html">Seleccion</a>
+            <a class="nav-link" href="glaciar.html">Glaciar</a>
+            <a class="nav-link" href="cataratas.html">Cataratas</a>
+            <a class="nav-link active" href="sobrenosotros.html">Sobre Nosotros</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+    </header>
+
+    <section class="my-3 text-center">
+        <h1 class="my-4">Sobre Nosotros</h1>
+        <p>
+            Argentina.Turismo es una Organización abocada a la Producción y Comercialización de Servicios Turísticos.
+Desde sus inicios se ha especializado en la Prestación de Servicios Turísticos para al segmento de la Tercera Edad, hoy después de 20 años de trayectoria y de permanente desarrollo, amplia sus servicios para todos los que quieran disfrutar del placer de viajar.
+
+Esta orientación, sostenida y en permanente perfeccionamiento y actualización del Equipo empresarial; tanto del Nivel Directivo y de todos los Niveles que la constituyen; Desarrollo tecnológico y de herramientas orientadas a la calidad del servicio, le permiten ser considerada la más sólida y prestigiada en este mercado.</p>
+
+<p>La Gestión permanente nos ha permitido ir expandiendo nuestros servicios hacia una amplia zona geográfica. Capital Federal, Gran Buenos Aires, Localidades del Interior de la Provincia de Buenos Aires, Rosario, Gran Rosario, Córdoba Capital y localidades del interior de Córdoba.
+
+Atendemos una amplia y selecta clientela que nos permite brindarles una gama de servicios turísticos y cubrir las diversas expectativas de cada uno. Centros de Jubilados, Mutuales, Sindicatos, Obras Sociales, Agencias de Viajes, Familias, Amigos y Amigas, pueden disfrutar de nuestros servicios y sumarse a nuestra capacidad de generación empresarial.
+
+Contamos con información acerca del mercado que operamos, tenemos el conocimiento y los medios científicos y tecnológicos para seguir ampliándolo, disponemos de un prestigio que nos acredita como una empresa Seria, Sólida y Capaz de afrontar desafíos con éxito.
+        </p>
+
+        <img class="empresa" src="../img/empresa2.jpg" alt="empresa">
+    </section>
+
+    <section>
+        <h1 class="my-3 text-center">Contáctanos</h1>
+        
+        <p class="my-2 text-center">Completa tus datos en el formulario y te contactaremos a la brevedad</p>
+    </section>
+    
+    <main>
+        <section class="contact-form">
+            <h2>Formulario de Contacto</h2>
+            <form action="procesar.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <section class="contact-info">
+            <h2>Información de Contacto</h2>
+            <p>Para cualquier consulta o información adicional, no dudes en contactarnos:</p>
+            <ul>
+                <li>Teléfono: +351 456 7897</li>
+                <li>Email: argentinaturismo@gmail.com</li>
+                <li>Dirección: 123 boulebared, Buenos Aires.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Turismo Argentina</p>
+    </footer>
+
+    <footer>
+        <h3 class="text-center">Visita nuestras redes sociales</h3>
+
+        <div class="redes d-flex justify-content-center">
+            <a href="https://www.instagram.com" target="_blank" class="me-5">
+                <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="https://www.tiktok.com" target="_blank" class="me-5">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+
+            <a href="https://www.youtube.com" target="_blank" class="me-5">
+                <i class="bi bi-youtube"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
+</html>
