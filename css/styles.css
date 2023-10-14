@@ -1,5 +1,5 @@
 header {
-  background-color: rgba(35, 125, 167, 0.795);
+  background-color: #6287d0ff;
   border: hidden black;
 }
 
@@ -16,7 +16,7 @@ img {
 }
 
 body {
-  background-color: rgba(85, 125, 144, 0.795);
+  background-color: #7697d6ff;
   font-family: Arial, sans-serif;
 }
 
@@ -26,7 +26,7 @@ body {
 
 @media (min-width: 520px) {
   .carousel-item img {
-    height: 50vh;
+    height: 60vh;
   }
 }
 @media (min-width: 768px) {
@@ -39,7 +39,7 @@ body {
     height: 80vh;
   }
   #carouselExampleFade {
-    width: 70%;
+    width: 100%;
   }
 }
 .container-cards {
@@ -47,7 +47,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
 }
 
 @media (min-width: 768px) {
@@ -61,6 +61,14 @@ body {
   .container-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+@media (min-width: 1200px) {
+  .container-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
     justify-items: center;
   }
 }
@@ -121,7 +129,7 @@ main {
 }
 
 .contact-form input[type=submit] {
-  background-color: rgba(85, 125, 144, 0.795);
+  background-color: #7697d6ff;
   color: black;
   border: none;
   padding: 10px 20px;
@@ -206,6 +214,7 @@ main {
 @media (max-width: 768px) {
   .gallery {
     grid-template-areas: "image1" "image2" "image3" "image4" "image5" "image6";
+    max-width: 100%;
   }
 }
 footer {
@@ -218,7 +227,6 @@ footer {
 @media (max-width: 768px) {
   main {
     padding: 10px;
+    max-width: 100%;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */
