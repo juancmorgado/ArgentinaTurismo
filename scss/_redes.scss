@@ -13,3 +13,14 @@
 .bi-youtube {
     color:red
 }
+
+.redes {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.redes a {
+    text-decoration: none;
+    margin: 0 12px; 
+}

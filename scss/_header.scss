@@ -1,5 +1,5 @@
 header {
-    background-color: #6287d0ff;
+    background-color: rgb(240, 245, 249);
     border:hidden black;
 }
 
@@ -14,3 +14,27 @@ img {
 .nav-link {
     color: black;
 }
+
+.nav-link {
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: blue; 
+}
+
+.navbar-brand {
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+.navbar-brand::before {
+    content: "TURISMO";
+    color: #75AADB; 
+}
+
+.navbar-brand::after {
+    content: "ARGENTINA";
+    color: #FFD100; 
+}
+

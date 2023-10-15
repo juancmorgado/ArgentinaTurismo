@@ -1,8 +1,24 @@
 body {
-    background-color: #7697d6ff;
+    background-color: rgb(201, 214, 223);
     font-family: Arial, sans-serif;
 }
 
 p {
-    font-size: 40px;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center; 
+    animation: slideFromRight 2s ease;
+}
+
+@keyframes slideFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0; 
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1; 
+    }
 }
